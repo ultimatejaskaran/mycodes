@@ -1,0 +1,14 @@
+#include<iostream>
+    using namespace std;
+    
+    int main(){
+        #ifndef ONLINE_JUDGE
+            freopen("input.txt","r",stdin);
+            freopen("output.txt","r",stdout);
+        #endif
+    
+        int a=2;
+        //cin>>a;
+        cout<<a<<endl;
+        return 0;
+    }
